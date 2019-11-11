@@ -1,0 +1,71 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8" />
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./Js/jquery.virtualKeyboard.css">    <script src="./Js/jquery.virtualKeyboard.js"></script>
+    
+    <style>
+ 
+ 
+.input{outline: none; border: none; font-size: 40px;}
+  .input-group{width: 450px;}
+
+  
+ 
+  </style>
+</head>
+
+<body style=" background-color: wheat;" >
+   
+          <div class="container-fluid" style="text-align: center; ">
+<div class="container-fluid "  style="margin-top: 8%;  " align="center"   > 
+
+ 
+      <div class="input-group ">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">ADINIZ</span>
+          </div>
+          <input type="text" id="surname"  class=" virtualKeyboard form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group ">
+            <div class="input-group-prepend">
+              <span class="input-group-text"   id="inputGroup-sizing-default">DOĞUM YILINIZ</span>
+            </div>
+            <input id="year" type="text" class="virtualKeyboard form-control" aria-label="Default"  aria-describedby="inputGroup-sizing-default">
+          </div>
+
+          <div class="input-group " id="tcinput"    >
+              <div class="input-group-prepend">
+                <button  class="input-group-text" >TC KİMLİK NO</button>
+              </div>
+              <input type="text"  id="tcno"   class="virtualKeyboard form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+            </div>
+
+            <div class="input-group " id="passportinput"   >
+                <div class="input-group-prepend">
+                  <button class="input-group-text" >PASAPORT NO</button>
+            
+              </div>
+                <input  id="passportno" type="text" class="virtualKeyboard form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+              </div>
+
+              </div>
+
+
+              <div class="container-fluid" style="height: 120px;  "   id="keybd" ></div>
+          </div>
+</body>
+
+ 
+
+    <script>  $('.virtualKeyboard').vkb();</script>
+</html>

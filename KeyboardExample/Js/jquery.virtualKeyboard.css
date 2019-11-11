@@ -1,0 +1,122 @@
+.vkb-css-keyboard-icon {
+	position: relative;
+	top: -40px;
+    left: 12%;
+    height: 40px;
+    width:inherit;
+	cursor: pointer;
+    opacity: 0;
+}
+.vkb-css-parent-input {
+	padding-right: 15px;
+}
+
+.vkb-css-hide {
+	display: none;
+}
+
+.vkb-css-background {
+	opacity: 0.7;
+ 
+    bottom: 0;
+    left: 0;
+	position: fixed;
+    right: 0;
+    top: 100;
+    z-index: 1040;
+}
+ 
+.vkb-css-keyboard-box {
+    margin-top: 00px;
+    background-color: transparent;
+    border-radius: 6px 6px 6px 6px;
+    overflow: auto;
+    position: fixed;
+    margin-left: 450px;
+    
+    /* width: 700px; */
+    height: inherit;
+    z-index: 1050;
+
+}
+
+  
+ 
+
+
+
+
+.vkb-css-button-line {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+.vkb-css-keyboard-box button {
+    background-repeat: repeat-x;
+    border-color: black;
+    border-image: none;
+    border-radius:120px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding: 10px 28px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+.vkb-css-keyboard-box button:hover {
+    background-color: #E6E6E6;
+    background-position: 0 -15px;
+    color: #333333;
+    text-decoration: none;
+    transition: background-position 0.1s linear 0s;
+}
+
+ 
+#vkb_close,#vkb_success{
+
+    font-size: 25px;   
+    width: 150px;
+}
+#vkb_success {
+    background-color: #5BB75B;
+    background-image: -moz-linear-gradient(center top , #62C462, #51A351);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    height: 80px;
+    width: 35%;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#vkb_success:hover{
+    background-color: #51A351;
+    color: #FFFFFF;
+}
+
+ 
+#vkb_close{
+    width: 35%;
+    background-color: red;
+    color: #FFFFFF;
+    height: 80px;
+}
+
+ 
